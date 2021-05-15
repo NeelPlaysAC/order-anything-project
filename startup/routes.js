@@ -1,11 +1,11 @@
 const express = require("express");
-const admin = require("../routes/admin");
-const agents = require("../routes/agents");
-const dilivery = require("../routes/dilivery");
-const orders = require("../routes/orders");
-const users = require("../routes/users");
-const auth = require("../routes/auth");
-const error = require("../middleware/error");
+const admin = require("../src/routes/admin");
+const agents = require("../src/routes/agents");
+const dilivery = require("../src/routes/dilivery");
+const orders = require("../src/routes/orders");
+const users = require("../src/routes/users");
+const auth = require("../src/routes/auth");
+const error = require("../src/middleware/error");
 
 module.exports = function (app) {
   app.use(express.json());

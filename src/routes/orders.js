@@ -5,7 +5,7 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const config = require("config");
 const auth = require("../middleware/auth");
-const { items } = require("../catalogue");
+const { items } = require("../../catalogue");
 
 // User route to get all orders of current user
 router.get("/", auth, async (req, res) => {
