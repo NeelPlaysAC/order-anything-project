@@ -1,5 +1,5 @@
 # order-anything-project
-node.js dummy project challange.
+node.js dummy project.
 
 ### Getting started
 - Install dependencies
