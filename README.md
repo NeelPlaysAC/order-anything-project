@@ -1,5 +1,5 @@
 # order-anything-project
-node.js dummy project.
+node server.
 
 ### Getting started
 - Install dependencies
