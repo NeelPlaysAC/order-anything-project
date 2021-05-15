@@ -18,7 +18,7 @@ The following env variables are supported:
 mongod
 ```
 ### Starting server
-The following env variables are supported:
+Enter this command in cmd/ps to start the node server:
 ```
 npm start
 ```
