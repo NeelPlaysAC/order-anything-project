@@ -33,7 +33,7 @@ const Order = mongoose.model(
   })
 );
 
-function validateMovie(order) {
+function validateOrder(order) {
   const schema = Joi.object({
     items: Joi.array().required(),
     quantity: Joi.array().required(),
@@ -42,4 +42,4 @@ function validateMovie(order) {
 }
 
 exports.Order = Order;
-exports.validate = validateMovie;
+exports.validate = validateOrder;
