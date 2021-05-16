@@ -3,7 +3,7 @@ const jwt = require("jsonwebtoken");
 const Joi = require("joi");
 const mongoose = require("mongoose");
 
-//Mongoose - Genre Schema
+// Agent Schema
 const agentSchema = new mongoose.Schema({
   name: {
     type: String,
